@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    width: 90%;
+    border: 5px solid rgb(0, 125, 125);
+    margin: 20px 5%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 106, 106);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.crud{
+    width: 80%;
+    margin: auto;
+   
+
+}
+
+.head{
+    text-align: center;
+    letter-spacing: 2px;line-height: 1.8;
+    margin: 10px 2px;
+    font-size: 25px;
+}
+.money input{
+    width: 20%;
+
+}
+input{
+    margin: 8px;
+    height: 30px;
+    width: 100%;
+    border: 2px solid rgb(0, 100, 92);
+    border-radius: 6px;
+    padding: 3px;
+    font-size: large;
+}
+input:hover{
+    background: rgb(216, 232, 230);
+}
+#total{
+background-color:rgb(247, 255, 255);
+width: 150px;
+height: 60px;
+border: 2px solid darkgreen;
+border-radius: 8px;
+margin: 3px;
+color: rgb(143, 159, 143);
+}
+#total:hover{
+    background-color: rgb(187, 213, 213);
+    letter-spacing: 2px;
+    color: darkgreen;
+  
+}
+
+button{
+    width: 80%;
+    height: 40px;
+    background-color: rgb(247, 255, 255);
+    border: 1.5px solid rgb(0, 106, 106);
+    border-radius: 10px;
+    color: darkcyan;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 25px;
+margin: 5px 70px;
+ 
+}
+button:hover{
+    background-color: rgb(201, 230, 230);
+
+}
+
+.searchbtns{
+    display: flex;
+    justify-content: space-between;
+}
+.searchbtns button{
+    width: 25%;
+    
+}
+#deleteAll{ 
+     font-size: larger;
+margin: 7px 200px;
+}
+.tproduct{
+    font-family:cursive;
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(11, 62, 103);
+    letter-spacing: 2px;
+}
+hr{
+    width: 22%;
+    margin: auto;
+    margin-top: 15px;
+    border: 3px solid rgb(7, 74, 45);
+    border-radius: 6px;
+}
+
+/*    style products table */
+table{
+    width: 100%;
+    text-align: center;
+    margin: 40px 2px;
+border: solid 2px rgb(2, 91, 80);
+border-radius: 10px;
+padding: 5px;
+}
+table th{
+    text-transform: uppercase;
+    color: darkgreen;
+    font-size: larger;
+    
+}
+th,td{
+    padding: 5px;
+    
+}
